@@ -1,0 +1,26 @@
+Data 18.5E /67.5N on 2011-01-05 at 500mb
+
+00:00:00 :266K or -6deg C 
+01:00:00 :266K or -6deg C 
+02:00:00 :266K or -7deg C 
+03:00:00 :265K or -7deg C 
+04:00:00 :265K or -7deg C 
+05:00:00 :265K or -7deg C 
+06:00:00 :266K or -6deg C 
+07:00:00 :266K or -6deg C 
+08:00:00 :266K or -6deg C 
+09:00:00 :266K or -6deg C 
+10:00:00 :266K or -6deg C 
+11:00:00 :266K or -6deg C 
+12:00:00 :266K or -7deg C 
+13:00:00 :265K or -7deg C 
+14:00:00 :265K or -7deg C 
+15:00:00 :265K or -7deg C 
+16:00:00 :265K or -7deg C 
+17:00:00 :265K or -7deg C 
+18:00:00 :265K or -7deg C 
+19:00:00 :265K or -7deg C 
+20:00:00 :265K or -7deg C 
+21:00:00 :265K or -7deg C 
+22:00:00 :265K or -7deg C 
+23:00:00 :265K or -7deg C 
