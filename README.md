@@ -5,11 +5,11 @@ This work focuses on extracting and analyzing oceanographic data collected from 
 
 <h3>Tools and Libraries Used</h3>
 <ul>
-<li><b>Xarray</b></li>Used for working with multi-dimensional arrays and labeled data structures, particularly well-suited for NetCDF data*.
-<li><b>Matplotlib</b></li>Employed for data visualization, allowing for the creation of informative plots and graphs.*
-<li><b>Numpy</b></li>Utilized for numerical operations on arrays, essential for manipulating and processing data efficiently.*
-<li><b>Pandas</b></li>Applied for data manipulation and analysis, providing a powerful data structure for tabular data.*
-<li><b>Machine Learning Concepts</b></li>Integrated for advanced analysis, exploring relationships and patterns within the data.*
+<li><b>Xarray</b></li>Used for working with multi-dimensional arrays and labeled data structures, particularly well-suited for NetCDF data.
+<li><b>Matplotlib</b></li>Employed for data visualization, allowing for the creation of informative plots and graphs.
+<li><b>Numpy</b></li>Utilized for numerical operations on arrays, essential for manipulating and processing data efficiently.
+<li><b>Pandas</b></li>Applied for data manipulation and analysis, providing a powerful data structure for tabular data.
+<li><b>Machine Learning Concepts</b></li>Integrated for advanced analysis, exploring relationships and patterns within the data.
 </ul>
 <h3>Workflow</h3>:
 <ul>
