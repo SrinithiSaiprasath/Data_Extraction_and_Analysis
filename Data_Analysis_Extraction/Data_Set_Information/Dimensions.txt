@@ -1,0 +1,14 @@
+Dimensions:
+Dimension: longitude
+Size: 221
+Dimension: latitude
+Size: 81
+Dimension: level
+Size: 2
+Dimension: time
+Size: 8760
+
+
+Global Attributes:
+Conventions
+history

@@ -1,0 +1,70 @@
+Variable label: D26
+Shape: (244, 81, 161)
+Attributes
+	 long_name : D26
+	 _FillValue : nan
+	 actual_range : [  0.         219.52999878]
+	 units : m
+	 coordsys : geographic
+	 variable_info : Depth of the 26deg isotherm
+	 ioos_category : Temperature
+	 standard_name : depth_of_isosurface_of_sea_water_potential_temperature
+	 _ChunkSizes : [   1  721 1441]
+	 coordinates : time lat lon lat lon
+
+Variable label: time
+Shape: (244,)
+Attributes
+	 units : seconds since 1970-01-01T00:00:00Z
+	 standard_name : time
+	 CoordinateAxisType : Time
+	 axis : T
+	 calendar : Gregorian
+	 ioos_category : Time
+	 long_name : Reference Time
+	 time_origin : 01-JAN-1970 00:00:00
+	 _ChunkSizes : 524288
+	 _CoordinateAxisType : Time
+
+Variable label: lat
+Shape: (81,)
+Attributes
+	 actual_range : [-90.  90.]
+	 long_name : latitude
+	 units : degrees_north
+	 CoordinateAxisType : Lat
+	 axis : Y
+	 ioos_category : Location
+	 standard_name : latitude
+	 _ChunkSizes : 721
+	 _CoordinateAxisType : Lat
+
+Variable label: lon
+Shape: (161,)
+Attributes
+	 actual_range : [-180.  180.]
+	 long_name : longitude
+	 units : degrees_east
+	 CoordinateAxisType : Lon
+	 axis : X
+	 ioos_category : Location
+	 standard_name : longitude
+	 _ChunkSizes : 1441
+	 _CoordinateAxisType : Lon
+
+Variable label: Tropical_Cyclone_Heat_Potential
+Shape: (244, 81, 161)
+Attributes
+	 long_name : Tropical Cyclone Heat Potential
+	 _FillValue : nan
+	 actual_range : [  0.         219.52999878]
+	 units : KJcm-2
+	 coordsys : geographic
+	 variable_info : Tropical Cyclone Heat Potential
+	 ioos_category : Other
+	 standard_name : integral_of_sea_water_potential_temperature_wrt_depth_expressed_as_heat_content
+	 _ChunkSizes : [   1  721 1441]
+	 coordinates : time lat lon lat lon
+
+
+

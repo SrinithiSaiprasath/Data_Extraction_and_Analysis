@@ -1,0 +1,57 @@
+Variable label: longitude
+Shape: (121,)
+Attributes
+	 units : degrees_east
+	 long_name : longitude
+
+Variable label: latitude
+Shape: (69,)
+Attributes
+	 units : degrees_north
+	 long_name : latitude
+
+Variable label: level
+Shape: (2,)
+Attributes
+	 units : millibars
+	 long_name : pressure_level
+
+Variable label: time
+Shape: (17544,)
+Attributes
+	 units : hours since 1900-01-01 00:00:00.0
+	 long_name : time
+	 calendar : gregorian
+
+Variable label: u
+Shape: (17544, 2, 69, 121)
+Attributes
+	 scale_factor : 0.0016224242238285483
+	 add_offset : 8.055570013474023
+	 _FillValue : -32767
+	 missing_value : -32767
+	 units : m s**-1
+	 long_name : U component of wind
+	 standard_name : eastward_wind
+
+Variable label: v
+Shape: (17544, 2, 69, 121)
+Attributes
+	 scale_factor : 0.0014125925318786193
+	 add_offset : 3.8520692774645293
+	 _FillValue : -32767
+	 missing_value : -32767
+	 units : m s**-1
+	 long_name : V component of wind
+	 standard_name : northward_wind
+
+Variable label: w
+Shape: (17544, 2, 69, 121)
+Attributes
+	 scale_factor : 0.00028438670565407377
+	 add_offset : -4.288175201928267
+	 _FillValue : -32767
+	 missing_value : -32767
+	 units : Pa s**-1
+	 long_name : Vertical velocity
+	 standard_name : lagrangian_tendency_of_air_pressure
