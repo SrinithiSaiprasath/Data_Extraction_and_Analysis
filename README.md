@@ -39,7 +39,7 @@ Decision Trees are tree-like models where nodes represent decisions based on fea
 <li><b>Feature Scaling</b>: Applying Scikit-learn's Standard Scaler to standardize features and ensure uniformity in the dataset.</li>
 <li><b>Machine Learning Model Development</b>: Utilizing Classification and Decision Tree algorithms to train a model for predicting cyclones.</li>
 <li><b>Model Evaluation</b>: Assessing the performance of the model using appropriate metrics to ensure its reliability.</li>
-<li><b>Prediction and Analysis</b>: Using the developed model to predict cyclone formation and analyzing the results.</li>
+<li><b>Prediction and Analysis</b>: Using the developed model to predict cyclone formation,analyzing and visualizing  the results for a better user experience.</li>
 </ol>
 
 <h3>Key Concepts Gained</h3>
