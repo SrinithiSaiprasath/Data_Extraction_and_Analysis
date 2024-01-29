@@ -25,7 +25,7 @@ The project aims to comprehensively analyze historical meteorological data, extr
 The Isolation Forest algorithm is an anomaly detection technique that efficiently identifies outliers in meteorological data. It works by randomly partitioning the data and measuring the number of steps required to isolate each point. Shorter paths indicate potential anomalies, making it effective for recognizing unusual patterns linked to cyclone formation.
 </li>
 <li><b>Classification Algorithm</b>
-Classification is a supervised learning method used to categorize meteorological conditions into classes like "Cyclone Formation" and "No Cyclone Formation." The algorithm learns from labeled data, identifies relevant features, and predicts whether conditions are conducive to cyclone formation. Evaluation metrics such as accuracy, precision, recall, and F1 score assess the model's performance.
+Classification is a supervised learning method used to categorize meteorological conditions into classes like "Cyclone" and "No Cyclone" The algorithm learns from labeled data, identifies relevant features, and predicts whether conditions are conducive to cyclone formation. Evaluation metrics such as accuracy, precision, recall, and F1 score assess the model's performance.
 </li>
 <li><b>Decision Tree Algorithm</b>
 Decision Trees are tree-like models where nodes represent decisions based on feature values. The algorithm selects influential features for cyclone prediction, splits the data based on these features, and forms a tree structure. This tree is transparent and interpretable, aiding in understanding the factors contributing to cyclone prediction.
