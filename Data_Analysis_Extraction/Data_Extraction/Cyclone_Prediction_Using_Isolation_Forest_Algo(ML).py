@@ -1,10 +1,11 @@
+#libraries hai beta 
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.ensemble import IsolationForest
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler  
 
 
 df = pd.read_csv('GPP_12.5_86.0.csv')  # Replace with your actual file path
@@ -12,6 +13,8 @@ df['Date'] = pd.to_datetime(df['Date'])
 df.set_index('Date', inplace=True)
 df['GPP_Rate'] = df['GPP'].diff()
 
+#to plot GPP diff wrt time 
+#idhula no error 
 plt.figure(figsize=(12, 6))
 sns.lineplot(x=df.index, y='GPP', data=df, label='GPP')
 sns.lineplot(x=df.index, y='GPP', data=df, label='GPP Rate of Change')
@@ -28,6 +31,7 @@ X_scaled = scaler.fit_transform(X)
 model = IsolationForest(contamination=0.05, random_state=42)
 df['Anomaly'] = model.fit_predict(X_scaled)
 
+#idhula error varum vitru bro enna nu therila 
 plt.figure(figsize=(12, 6))
 sns.lineplot(x=df.index, y='GPP', data=df, label='GPP')
 plt.scatter(df[df['Anomaly'] == -1].index, df[df['Anomaly'] == -1]['GPP'], color='red', label='Anomalies')
